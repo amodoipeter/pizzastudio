@@ -6,7 +6,34 @@ body{
   background-image: url("../images/cheesy-pizza.gif");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
-#nav-items{
+.nav-items {
   padding-left: 400px;
+  list-style: none;
+  padding-top: 20px;
+}
+h1 {
+  padding-top: 20px;
+  letter-spacing: 8px;
+  color: orange;
+  font-weight: bolder;
+  font-family: 'Wallpoet', cursive;
+  font-size: 60px;
+  text-shadow: 2px 2px 5px rgb(8, 156, 5);
+}
+
+}
+#overlay{
+  width: 100%;
+  position: absolute;
+}
+#head{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-brand{
+  margin-right: 30%;
+  font-weight:800;
 }
