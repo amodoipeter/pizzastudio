@@ -1,66 +1,84 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/mdb.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Studio</title>
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="view landing">
+            <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
 
-    <title>Pizza Studio</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-      <div class="view landing">
-          <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
-          <a class="navbar-brand" href="index.html">PIZZA STUDIO</a>
-          <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#about_us">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#variety">Our Varieties</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
-              </li>
-            </ul>
+            <a class="navbar-brand" href="index.html">PIZZA STUDIO</a>
+            <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about_us">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#variety">Our Varieties</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+
+
+          <div class="mask rgba-black-light align-items-center">
+            <div class="container" id="head">
+                <div class="col-md-12 mb-4 white-text text-center text">
+                  <h1 class="gold-text font-weight-bolder mb-0 pt-md-5 pt-5 pulse"><strong>The Pizza Studio</strong></h1>
+                  <h5 class="text-lowercase mb-4 gold-text floater"><strong><i>For Your African favorite Pizza...<i></strong></h5>
+                  <a class="btn btn-orange button floater" href="#make-order">Make Order!</a>
+                </div>
+            </div>
           </div>
-        </nav>
-        <div class="mask rgba-black-light align-items-center">
-          <div class="container" id="head">
-              <div class="col-md-12 mb-4 white-text text-center text">
-                <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse"><strong>Pizza Studio</strong></h1>
-                <h5 class="text-uppercase mb-4 gold-text floater"><strong><i>For your African Pizza..</i></strong></h5>
-                <a class="btn btn-blue button floater" href="#make-order">  Order Now!</a>
-              </div>
+          <div class="arrow bounce"> <a href="#variety"> <img src="images/arrow.ico" alt=" arrow"width="40px"></a></div>
+      </div>
+  </header>
+
+
+
+
+  <div class="controls-top text-center" id="about_us">
+      <h2>About Us</h2>
+  </div>
+
+
+  <div class="container-fluid section" id="about-us">
+      <div class="col-sm-12 d-flex flex-xs-column">
+          <div class="content">
+            <p>We are the Pizza Studio and we offer a unique atmosphere for our customers. In
+              addition to home delivery services, Our chefs are dedicated to prepare Delicious and nutritious
+              African pizzas which will be delivered at our customer's convenience Accross Africa.</p>
           </div>
-        </div>
-        <div class="arrow bounce"> <a href="#variety"> <img src="images/arrow.ico" alt=" arrow"width="40px"></a></div>
-    </div>
-</header>
+      </div>
+  </div>
 
 
-<div class="controls-top text-center" id="about_us">
-  <h2>About Us</h2>
-</div>
-<div class="container-fluid section" id="about-us">
-        <div class="content">
-          <p>We are the Pizza Studio and we offer a unique atmosphere for our customers. In
-            addition to home delivery services, Our chefs are dedicated to prepare Delicious and nutritious
-            African pizzas which will be delivered at our customer's convenience Accross Africa.</p>
-        </div>
-</div>
+
+
+
+
+
 
 
 
 
   <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
     <div class="controls-top ">
-      <h2>Our Varieties</h2>
+      <h2>Varieties</h2>
     </div>
+
     <div class="carousel-inner" role="listbox">
+
       <div class="carousel-item active">
         <div class="col-md-4">
           <div class="card mb-2">
@@ -89,7 +107,13 @@
       </div>
 
 
+
+
+
+
+
       <div class="carousel-item">
+
         <div class="col-md-4">
           <div class="card mb-2">
             <img class="card-img-top" src="images/pizza4.jpg" alt="Card image cap">
@@ -114,21 +138,45 @@
             </div>
           </div>
         </div>
+
       </div>
+
     </div>
   </div>
 
 
 
 
-<!-- <p>Project in progress</p> -->
 
 
 
 
+  <div class="container-fluid order" id="make-order">
+    <div class="order-overlay">
+      <div class="controls-top text-center" id="Order-now">
+        <h2>make Order</h2>
+      </div>
+      <h2>get your favorite pizza</h2>
+      <div class="row">
+          <div class="col-sm-5">
+            <form action="">
+                <label for="select">Select Your Favorite pizza</label>
+                <select class="browser-default custom-select custom-select-md mb-3 name">
+                  <option value="Chicken Tikka">Chicken Tikka</option>
+                  <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                  <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
+                  <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+                  <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+                  <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+                </select>
+            </form>
+          </div>
 
+      </div>
     </div>
-  </body>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery-3.5.1.js"></script>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 </html>
