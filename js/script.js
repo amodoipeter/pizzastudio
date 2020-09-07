@@ -54,6 +54,10 @@ switch(pcrust){
         console.log("No price");
     }
 
+    let topping_value = ptopping.length*50;
+    console.log("toppins value" + topping_value);
+
+
 });
 
 
