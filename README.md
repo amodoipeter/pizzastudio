@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a web application for Pizza studio which is a pizza selling restaurant, that shows details about the services and diffent pizza they sell, their menu allows customers to order online for their preferred pizza depending on size, crust and also input a location which they would love the piza to be delivered to.
+This is a web application for Pizza studio which is a pizza selling restaurant, that shows details about the services and different pizzas they sell, their menu allows customers to order online for their preferred pizza depending on size, crust and also input a location which they would love the piza to be delivered to.
 
 ## Live Page
 https://amodoipeter.github.io/pizzastudio
