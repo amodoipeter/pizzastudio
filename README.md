@@ -13,16 +13,6 @@ This is a web application for Pizza studio which is a pizza selling restaurant, 
 ## Live Page
 https://amodoipeter.github.io/pizzastudio
 
-
-## Installation / Setup instruction
-* Open Terminal {Ctrl+Alt+T}
-
-* git clone ```https://github.com/ammodoipeter/pizzastudio.git```
-
-* cd pizzastudio
-
-* code . or atom . depending on the text editor of your choise.
-
 ## Technologies Used
 
 * [HTML5](https://github.com/topics/html5)
